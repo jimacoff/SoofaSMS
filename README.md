@@ -76,6 +76,13 @@ $api_secret = "PUT YOUR API SECRET HERE";
 # Usage:
 Access with your browser to "http://localhost/SoofaSMS".
 
+The default password is: "SoofaSMS".
+It can be changed in the database, to change go to mysql console and run the command:
+```
+use soofasms;
+MariaDB [soofasms]> UPDATE users SET password = 'New_Password' where id = '1';
+```
+
 # Android Application:
 The Android application allows you to connect the mobile application to your server.
 it makes the API easier to use because it can choose the phone numbers directly from your contacts and autofill your password.
