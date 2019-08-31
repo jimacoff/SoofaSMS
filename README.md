@@ -2,6 +2,9 @@
 
 # SoofaSMS
 SoofaSMS is a web Interface for the Nexmo SMS Service.
+It was build as a project to demonstrate the danger in SMS messages and how easy it is to fake them and imitate to someone else.
+
+When builiding this project I focused on secure development to make the application has secure as possible.
 
 # Prerequisites:
 * MYSQL
