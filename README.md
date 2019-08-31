@@ -1,4 +1,4 @@
-![alt text](https://lh3.googleusercontent.com/qY19JSPho90ICLi_d746nVrdlH77dklwjQaKt7QHdzd5o9jOof5hI2VGOtFEWJDrNw=s180-rw)
+![Soofa logo](https://lh3.googleusercontent.com/qY19JSPho90ICLi_d746nVrdlH77dklwjQaKt7QHdzd5o9jOof5hI2VGOtFEWJDrNw=s180-rw)
 
 # SoofaSMS
 SoofaSMS is a web Interface for the Nexmo SMS Service.
@@ -84,3 +84,5 @@ https://play.google.com/store/apps/details?id=appinventor.ai_Saab95DIY.SofasSMS
 # Instruction for the application:
 On the first run it will ask you to URI for the web server, type the URI and click update.
 if you want to change it just click on the "Settings" button inside the app.
+
+![Soofa envelope](https://github.com/Deathstars/SoofaSMS/blob/master/www/html/SoofaSMS/images/img-01.png?raw=true)
