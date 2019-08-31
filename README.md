@@ -4,6 +4,7 @@ SoofaSMS is a web Interface for the Nexmo SMS Service.
 # Prerequisites:
 * MYSQL
 * Web server with PHP support (Apache2 in the installation example).
+* Nexmo User (https://www.nexmo.com)
 
 *This build has been tested only on **Debian** and **Ubuntu** environments, but should work on other distributions and xmapp if configured correctly.*
 
