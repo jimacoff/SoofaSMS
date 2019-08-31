@@ -27,7 +27,7 @@ sudo mv SoofaSMS/www /var/
     Replace *'root'* and *'toor'* with your username and password: 
     Starting MYSQL and Apache2 services:
 ```
-sudo service apache2 start && service mysql start
+sudo service apache2 start && sudo service mysql start
 ```
 
 4. Creating the database that contains the password for the application:
