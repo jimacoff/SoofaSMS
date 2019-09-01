@@ -37,9 +37,17 @@ sudo service apache2 start && sudo service mysql start
 ```
 mysql -u root -p
 create database soofasms;
-mysql -u root -p mypass < soofasms.sql
+create table users( id int(7) , password varchar(50));
+insert into users (id,password) values (1,"SoofaSMS");
 GRANT ALL PRIVILEGES ON SoofaSMS.* TO 'root'@'%' IDENTIFIED BY 'toor';
 exit
+```
+Or import the Database from the repository:
+```
+mysql -u root -p
+create database soofasms;
+exit
+mysql -u root -p mypass < soofasms.sql
 ```
 
 5. Config the **PHP Database Connection File** with your Database information:
