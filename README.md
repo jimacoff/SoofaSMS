@@ -39,7 +39,7 @@ mysql -u root -p
 create database soofasms;
 create table users( id int(7) , password varchar(50));
 insert into users (id,password) values (1,"SoofaSMS");
-GRANT ALL PRIVILEGES ON SoofaSMS.* TO 'root'@'%' IDENTIFIED BY 'toor';
+GRANT ALL PRIVILEGES ON SoofaSMS.* TO 'root'@'localhost' IDENTIFIED BY 'toor';
 exit
 ```
 Or import the Database from the repository:
